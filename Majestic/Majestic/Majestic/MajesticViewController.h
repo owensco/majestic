@@ -10,6 +10,8 @@
 
 @interface MajesticViewController : UIViewController{
     
+    NSMutableArray *majesticSounds;
+    
 }
 
 @property (weak, nonatomic) IBOutlet UIWebView *myWebView;

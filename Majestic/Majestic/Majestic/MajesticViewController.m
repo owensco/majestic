@@ -23,6 +23,15 @@
     [[self myWebView] loadHTMLString:embedYoutube baseURL:nil];
     
     
+    [majesticSounds addObject:@""];
+    [majesticSounds addObject:@""];
+    [majesticSounds addObject:@""];
+    [majesticSounds addObject:@""];
+    [majesticSounds addObject:@""];
+    [majesticSounds addObject:@""];
+    [majesticSounds addObject:@""];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
