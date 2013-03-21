@@ -14,5 +14,6 @@
 @property (strong, nonatomic) NSArray *arrayName;
 - (IBAction)newSongButton:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *nextButton;
 
 @end
