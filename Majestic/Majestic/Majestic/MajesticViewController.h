@@ -8,11 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MajesticViewController : UIViewController{
-    
-    NSMutableArray *majesticSounds;
-    
-}
+@interface MajesticViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIWebView *myWebView;
 
