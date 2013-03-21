@@ -11,5 +11,8 @@
 @interface MajesticViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIWebView *myWebView;
+@property (strong, nonatomic) NSArray *arrayName;
+- (IBAction)newSongButton:(id)sender;
+
 
 @end
